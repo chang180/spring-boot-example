@@ -8,7 +8,7 @@ import java.util.Objects;
 public class Customer {
     @Id
     @SequenceGenerator(
-            name = "customer_sequence",
+            name = "customer_id_sequence",
             sequenceName = "customer_id_sequence"
     )
     @GeneratedValue(

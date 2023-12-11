@@ -4,8 +4,8 @@ server:
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5332/customer
-    username: postgres
-    password: postgres
+    username: kevinchang
+    password: password
   jpa:
     hibernate:
       ddl-auto: create-drop
